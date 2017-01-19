@@ -39,7 +39,7 @@ module Collisions (wallBounce,paddleBounce, loose) where
         && y < (p1 + 43) && y > (p1 - 43)
       rightCollision =
         x + radius >= fromIntegral (width window - 94) / 2
-        && x + radius <= fromIntegral (width window - 90) / 2
+        && x + radius <= fromIntegral (width window - 88) / 2
         && y < (p2 + 43) && y > (p2 - 43)
 
   paddleBounce :: PongGame -> PongGame
